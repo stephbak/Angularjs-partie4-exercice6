@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 5
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div ng-hide="afficher">
+<p>bonjour à tous</p>
+</div>
+<div ng-show="afficher">
+  <p>au revoir</p>
+</div>
+<div>
+<button ng-click="afficher=false" type="button" name="button">paragraphe 1</button>
+<button ng-click="afficher=true" type="button" name="button">paragraphe 2</button>
+    </div>
+  </body>
+</html>
